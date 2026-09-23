@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Semântico</title>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Blog Semântico</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>A Importância do HTML Semântico</h2>
+            <p>Utilizar tags semânticas melhora a acessibilidade do site e ajuda os motores de busca (SEO) a entenderem a estrutura do seu conteúdo.</p>
+            <img src="https://via.placeholder.com/500x250?text=HTML+Semantico" alt="Ilustração sobre HTML semântico">
+        </article>
+
+        <article>
+            <h2>Trabalhando com Formulários</h2>
+            <p>Formulários bem estruturados e com validações nativas do HTML5 garantem uma melhor experiência para o usuário e dados mais seguros.</p>
+            <img src="https://via.placeholder.com/500x250?text=Formularios+Web" alt="Ilustração sobre formulários web">
+        </article>
+    </main>
+
+    <aside>
+        <h2>Inscreva-se na Newsletter</h2>
+        
+        <form method="get" action="">
+            
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" minlength="3" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="18" max="120" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="assunto">Assunto favorito:</label>
+                <select id="assunto" name="assunto">
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="ciencia">Ciência</option>
+                    <option value="design">Design</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Aceito os termos e condições</label>
+            </div>
+            <br>
+
+            <div>
+                <button type="submit">Enviar Dados</button>
+            </div>
+
+        </form>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Meu Blog Semântico. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
